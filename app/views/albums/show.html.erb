@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Trackingid:</b>
+  <%= @album.trackingId %>
+</p>
+
+<p>
+  <b>Artist:</b>
+  <%= @album.artist %>
+</p>
+
+<p>
+  <b>Album:</b>
+  <%= @album.album %>
+</p>
+
+<p>
+  <b>Comments:</b>
+  <%= @album.comments %>
+</p>
+
+<p>
+  <b>Rating:</b>
+  <%= @album.rating %>
+</p>
+
+
+<%= link_to 'Edit', edit_album_path(@album) %> |
+<%= link_to 'Back', albums_path %>
