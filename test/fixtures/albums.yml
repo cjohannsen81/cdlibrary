@@ -4,12 +4,12 @@ one:
   trackingId: 1
   artist: MyString
   album: MyString
-  comments: MyText
+  titles: MyText
   rating: 1
 
 two:
   trackingId: 1
   artist: MyString
   album: MyString
-  comments: MyText
+  titles: MyText
   rating: 1

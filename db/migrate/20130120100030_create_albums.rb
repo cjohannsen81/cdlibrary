@@ -4,7 +4,7 @@ class CreateAlbums < ActiveRecord::Migration
       t.integer :trackingId
       t.string :artist
       t.string :album
-      t.text :comments
+      t.text :titles
       t.integer :rating
 
       t.timestamps
